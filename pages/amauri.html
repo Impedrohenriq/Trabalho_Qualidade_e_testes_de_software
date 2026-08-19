@@ -3,53 +3,269 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amauri Souza</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <title>Amauri Souza | Projeto Acadêmico</title>
+
+    <link rel="stylesheet" href="../css/amauri.css" />
   </head>
+
   <body>
-    <header class="site-header">
+    <header class="amauri-header">
       <div class="container">
-        <nav class="topbar" aria-label="Navegação principal">
-          <div class="brand">Projeto Acadêmico</div>
-          <a href="../index.html" class="top-link">Página Principal</a>
+        <nav class="amauri-nav">
+          <div class="brand">
+            <div class="brand-icon">A</div>
+            <span>Projeto Acadêmico</span>
+          </div>
+
+          <div class="nav-links">
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#interesses">Interesses</a>
+            <a href="#contribuicao">Contribuição</a>
+            <a href="../index.html" class="home-button">Página Principal</a>
+          </div>
         </nav>
       </div>
     </header>
 
-    <main class="profile-page">
-      <div class="container profile-shell">
-        <section class="profile-card">
-          <p class="eyebrow">Integrante</p>
-          <h1>Amauri Souza</h1>
-          <p class="lead">
-            Escreva aqui uma breve apresentação do integrante.
-          </p>
-          <p>
-            Adicione uma biografia acadêmica ou pessoal neste espaço.
-          </p>
-          <p>
-            Descreva experiências, interesses e contribuições para o grupo.
-          </p>
-          <a href="../index.html" class="back-link">Voltar para a Página Principal</a>
-        </section>
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <div class="badge">Integrante do Grupo</div>
 
-        <aside class="meta-card">
-          <h2>Perfil</h2>
-          <ul class="meta-list">
-            <li>Preencha com informações relevantes sobre o integrante.</li>
-            <li>Inclua interesses, habilidades ou objetivos acadêmicos.</li>
-            <li>Adicione detalhes importantes para completar a apresentação.</li>
-          </ul>
-        </aside>
+            <h1>
+              Amauri
+              <span class="gradient-text">Souza</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Desenvolvimento de Software • Tecnologia • Qualidade
+            </p>
+
+            <p class="hero-description">
+              Sou estudante de Desenvolvimento de Software Multiplataforma,
+              interessado em tecnologia, desenvolvimento de sistemas,
+              qualidade de software e criação de soluções que realmente
+              resolvam problemas.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contribuicao" class="btn btn-primary">
+                Ver contribuições
+              </a>
+
+              <a href="#sobre" class="btn btn-secondary">
+                Conhecer meu perfil
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-card">
+            <div class="avatar">AS</div>
+
+            <h2>Amauri Souza</h2>
+
+            <p>
+              Tecnologia, aprendizado contínuo e desenvolvimento de soluções.
+            </p>
+
+            <div class="quick-info">
+              <div class="info-item">
+                <span>Curso</span>
+                <strong>DSM</strong>
+              </div>
+
+              <div class="info-item">
+                <span>Instituição</span>
+                <strong>FATEC Cotia</strong>
+              </div>
+
+              <div class="info-item">
+                <span>Área</span>
+                <strong>Tecnologia</strong>
+              </div>
+
+              <div class="info-item">
+                <span>Objetivo</span>
+                <strong>Evolução constante</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="container">
+          <div class="section-title">
+            <span>Quem sou eu</span>
+            <h2>Sobre mim</h2>
+          </div>
+
+          <div class="about-grid">
+            <article class="card">
+              <h3>Minha trajetória</h3>
+
+              <p>
+                Atualmente estou cursando Desenvolvimento de Software
+                Multiplataforma na FATEC Cotia. Ao longo do curso venho
+                desenvolvendo conhecimentos em programação, desenvolvimento
+                web, bancos de dados, computação em nuvem, segurança e
+                qualidade de software.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Minha forma de pensar</h3>
+
+              <p>
+                Acredito que tecnologia vai muito além de escrever código.
+                Desenvolver software significa entender problemas, buscar
+                soluções, testar possibilidades e melhorar continuamente
+                aquilo que foi criado.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="habilidades">
+        <div class="container">
+          <div class="section-title">
+            <span>Conhecimentos</span>
+            <h2>Habilidades e tecnologias</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <div class="skill-icon">🐍</div>
+              <h3>Python</h3>
+              <p>
+                Desenvolvimento de aplicações, APIs e automação de tarefas.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">🌐</div>
+              <h3>HTML & CSS</h3>
+              <p>
+                Criação de interfaces web modernas, organizadas e responsivas.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">⚡</div>
+              <h3>JavaScript</h3>
+              <p>
+                Desenvolvimento de funcionalidades e interações em aplicações web.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">🗄️</div>
+              <h3>Banco de Dados</h3>
+              <p>
+                Experiência com bancos SQL e NoSQL utilizados em projetos acadêmicos.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">☁️</div>
+              <h3>Cloud Computing</h3>
+              <p>
+                Conhecimentos em infraestrutura e serviços de computação em nuvem.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">🔧</div>
+              <h3>Git & GitHub</h3>
+              <p>
+                Versionamento de código, branches, commits e colaboração em equipe.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="interesses">
+        <div class="container">
+          <div class="section-title">
+            <span>Além do código</span>
+            <h2>Meus interesses</h2>
+          </div>
+
+          <div class="interests">
+            <span class="interest">💻 Tecnologia</span>
+            <span class="interest">🏋️ Treino</span>
+            <span class="interest">🎮 Games</span>
+            <span class="interest">🌿 Natureza</span>
+            <span class="interest">🎬 Animes</span>
+            <span class="interest">☁️ Computação em Nuvem</span>
+            <span class="interest">🤖 Inteligência Artificial</span>
+            <span class="interest">🔐 Segurança da Informação</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contribuicao">
+        <div class="container">
+          <div class="section-title">
+            <span>Trabalho em equipe</span>
+            <h2>Minha contribuição para o projeto</h2>
+          </div>
+
+          <article class="card contribution">
+            <h3>Participação no desenvolvimento</h3>
+
+            <p>
+              Neste projeto acadêmico fiquei responsável pelo desenvolvimento
+              e personalização desta página, utilizando HTML e CSS e aplicando
+              os conceitos de versionamento com Git e GitHub.
+            </p>
+
+            <ul class="contribution-list">
+              <li>Criação e organização da estrutura HTML da página.</li>
+              <li>Desenvolvimento de um arquivo CSS exclusivo.</li>
+              <li>Criação de um layout moderno e responsivo.</li>
+              <li>Utilização de branch própria para desenvolvimento.</li>
+              <li>Registro das alterações através de commits.</li>
+              <li>Integração futura da branch ao projeto principal.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="quote">
+          <p>
+            “Aprender tecnologia é transformar curiosidade em conhecimento
+            e conhecimento em soluções.”
+          </p>
+
+          <small>Amauri Souza</small>
+        </section>
       </div>
     </main>
 
-    <footer class="site-footer">
+    <footer class="amauri-footer">
       <div class="container footer-content">
-        <p>© <span id="year"></span> Projeto Acadêmico</p>
+        <p>
+          © <span id="year"></span> Projeto Acadêmico • Amauri Souza
+        </p>
+
+        <a
+          href="https://github.com/souzaoryon3"
+          target="_blank"
+          class="github-link"
+        >
+          GitHub • souzaoryon3
+        </a>
       </div>
     </footer>
 
-    <script src="../js/script.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
